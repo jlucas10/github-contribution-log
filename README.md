@@ -1,9 +1,9 @@
 # Contribution [#]: [Issue Title]
 
-**Contribution Number:** [1]  
-**Student:** [Josiah Lucas]  
-**Issue:** [https://github.com/WeblateOrg/weblate/issues/12167]  
-**Status:** [Phase I] [Completed]
+**Contribution Number:** 1  
+**Student:** Josiah Lucas  
+**Issue:** https://github.com/WeblateOrg/weblate/issues/12167  
+**Status:** Phase I Completed
 
 ---
 
