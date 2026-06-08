@@ -1,4 +1,4 @@
-# Contribution [#]: [Issue Title]
+# Contribution #12167: Codeberg OAuth does not allow secondary e-mails to be used
 
 **Contribution Number:** 1  
 **Student:** Josiah Lucas  
