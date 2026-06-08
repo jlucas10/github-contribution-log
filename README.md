@@ -9,7 +9,7 @@
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I selected this issue for my first open source contribution because it offers a highly structured, clear introduction to working within a production-grade backend codebase. The core project maintainer has explicitly mapped out the architectural strategy for the fix. A functional blueprint already exists within the repository showing how GitHub handles fetching secondary emails via its API pipeline, which allows me to mirror this established pattern for Codeberg.
 
 ---
 
@@ -17,7 +17,7 @@
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+When users authenticate with Weblate using Codeberg OAuth, the platform's current pipeline only captures and records the user's primary email address. This creates a friction point for developers who utilize distinct secondary email addresses for their Git commit identity on platforms like Hosted Weblate, as those secondary addresses are completely missing from their Weblate account settings.
 
 ### Expected Behavior
 
