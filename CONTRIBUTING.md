@@ -6,7 +6,7 @@
 * **Key Commits:** * `wip: initial implementation of codeberg email parsing tests (local environment setup complete)`
 
 ---
-
+ 
 ## 2. Challenges Faced & Resolution
 * **Docker Network Isolation:** While configuring the local testing workflow (`./rundev.sh run weblate test...`), the test environment profile (`weblate.settings_test`) aggressively defaulted database initialization routines to a local Unix socket file (`/var/run/postgresql/.s.PGSQL.5432`) instead of adhering to the container's external TCP network bridge.
 * **Mitigation Strategy:** Bypassed standard execution loops by utilizing `docker compose -f dev-docker/docker-compose.yml run` coupled with explicit environment injection overrides (`--entrypoint=""`) to successfully verify that the underlying execution engine, dependency manager (`uv`), and Django initialization pathways boot up cleanly without package collision.
