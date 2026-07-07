@@ -7,7 +7,7 @@
 
 ---
  
-## Why I Chose This Issue
+## Why I Chose This Issue 
 
 I selected this issue for my first open source contribution because it offers a highly structured, clear introduction to working within a production-grade backend codebase. The core project maintainer has explicitly mapped out the architectural strategy for the fix. A functional blueprint already exists within the repository showing how GitHub handles fetching secondary emails via its API pipeline, which allows me to mirror this established pattern for Codeberg.
 
